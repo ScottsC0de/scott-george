@@ -6,7 +6,7 @@ function Nav() {
             <nav>
                 <a href='/AboutMe'>About Me</a>
                 <br />
-                <a href='/Work'>Work</a>
+                <a href='/Portfolio'>Portfolio</a>
                 <br />
                 <a href='/Resume'>Resume</a>
             </nav>

@@ -8,36 +8,67 @@ function Portfolio() {
                 <h2>My Work</h2>
                 <hr />
 
-                <p><i>Here you will find a live link of my personal site as well as 6 videos of my code in action</i></p>
+                <p><strong><em>7 projects; 1 live site, 6 videos</em></strong></p>
 
                 <h3>Elite Matchups</h3>
                 <img>
-                    <a></a>
+                    <a href='https://elite-matchups.herokuapp.com'></a>
                 </img>
+
             </section>
 
             <section className='projects'>
+
                 <h3>Social Media API</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_9QMaGcVVWM" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
             </section>
 
             <section className='projects'>
+
                 <h3>E-Commerce Back-End</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/suPdpcR-5OY" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
             </section>
 
             <section className='projects'>
+
                 <h3>SQL Database Tracker</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jJTQS-aa_f0" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
             </section>
 
             <section className='projects'>
+
                 <h3>myTeam App</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JoxPK37G1w0" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
             </section>
 
             <section className='projects'>
+
                 <h3>ReadMe Machine</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FiDq-eSe_e0" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
             </section>
 
             <section className='projects'>
+
                 <h3>The Venue</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SAl53Z5xNDk" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
             </section>
 
         </div>
