@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-
-import daftGit from '../img/daftgit.gif'
+import matchupImg from '../img/matchupimg.png'
 
 function Portfolio() {
     return (
@@ -8,16 +7,15 @@ function Portfolio() {
 
             <section className='main-project text-center'>
                 <h2>My Work</h2>
-                <img src={daftGit} alt='Daft Github mascot gif' width={100} height={100}></img>
 
                 <br />
                 <br />
 
-                <h3><strong>Elite Matchups</strong></h3>
+                <h3>Elite Matchups</h3>
 
-                <figure className='figure'>
-                    <img class='figure-img img-fluid rounded' src='' alt='Matchup app, Paul McCartney vs John Lennon'></img>
-                    <figcaption class='figure-caption text-xs-right'>Matchup app - HTML, CSS, JS</figcaption>
+                <figure>
+                    <a href='https://elite-matchups.herokuapp.com' target='_blank' rel='noreferrer'><img className='figure-img img-fluid rounded' src={matchupImg} alt='Matchup app, Paul McCartney vs John Lennon' width={560} height={315}></img></a>
+                    <figcaption style={{ color: 'whitesmoke' }}>Matchup app powered by HTML, CSS, JS</figcaption>
                 </figure>
 
             </section>
@@ -31,6 +29,7 @@ function Portfolio() {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/_9QMaGcVVWM" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
+                    <figcaption>MongoDB data storage & retrieval</figcaption>
 
                 </section>
 
@@ -41,6 +40,7 @@ function Portfolio() {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/suPdpcR-5OY" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
+                    <figcaption>Database communication using Sequelize</figcaption>
 
                 </section>
 
@@ -51,6 +51,7 @@ function Portfolio() {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/jJTQS-aa_f0" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
+                    <figcaption>Track database items using mySQL</figcaption>
 
                 </section>
 
@@ -65,6 +66,7 @@ function Portfolio() {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/JoxPK37G1w0" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
+                    <figcaption>Generate HTML pages using node.js & inquirer npm</figcaption>
 
                 </section>
 
@@ -75,6 +77,7 @@ function Portfolio() {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/FiDq-eSe_e0" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
+                    <figcaption>Generate ReadMe files using node.js & inquirer npm</figcaption>
 
                 </section>
 
@@ -85,6 +88,7 @@ function Portfolio() {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/SAl53Z5xNDk" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
+                    <figcaption>Discover, share, & talk about music using the Spotify Web API</figcaption>
 
                 </section>
 
