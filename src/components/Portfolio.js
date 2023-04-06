@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 
+import daftGit from '../img/daftgit.gif'
+
 function Portfolio() {
     return (
         <div className='text-center'>
 
             <section className='main-project text-center'>
                 <h2>My Work</h2>
+                <img src={daftGit} alt='Daft Github mascot gif' width={100} height={100}></img>
+
+                <br />
                 <br />
 
                 <h3><strong>Elite Matchups</strong></h3>
