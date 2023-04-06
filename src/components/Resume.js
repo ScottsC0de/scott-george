@@ -1,6 +1,7 @@
 import React from "react";
 
 function Resume() {
+
     <div>
         <h2>Resume</h2>
         <hr />
@@ -8,4 +9,5 @@ function Resume() {
         <br />
         <p>View my resume on GitHub <a href='' target='_blank'>here</a></p>
     </div>
+
 }

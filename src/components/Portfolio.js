@@ -2,76 +2,90 @@ import React, { useState } from 'react';
 
 function Portfolio() {
     return (
-        <div>
+        <div className='text-center'>
 
-            <section className='main-project'>
+            <section className='main-project text-center'>
                 <h2>My Work</h2>
-                <hr />
+                <br />
 
-                <p><strong><em>7 projects; 1 live site, 6 videos</em></strong></p>
+                <h3><strong>Elite Matchups</strong></h3>
 
-                <h3>Elite Matchups</h3>
-                <img>
-                    <a href='https://elite-matchups.herokuapp.com'></a>
-                </img>
-
-            </section>
-
-            <section className='projects'>
-
-                <h3>Social Media API</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/_9QMaGcVVWM" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                <figure className='figure'>
+                    <img class='figure-img img-fluid rounded' src='' alt='Matchup app, Paul McCartney vs John Lennon'></img>
+                    <figcaption class='figure-caption text-xs-right'>Matchup app - HTML, CSS, JS</figcaption>
+                </figure>
 
             </section>
 
-            <section className='projects'>
+            <div className='proj-top row'>
 
-                <h3>E-Commerce Back-End</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/suPdpcR-5OY" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                <section className='projects col'>
 
-            </section>
+                    <h3>Social Media API</h3>
 
-            <section className='projects'>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_9QMaGcVVWM" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
 
-                <h3>SQL Database Tracker</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/jJTQS-aa_f0" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                </section>
 
-            </section>
+                <section className='projects col'>
 
-            <section className='projects'>
+                    <h3>E-Commerce Back-End</h3>
 
-                <h3>myTeam App</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/JoxPK37G1w0" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/suPdpcR-5OY" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
 
-            </section>
+                </section>
 
-            <section className='projects'>
+                <section className='projects col'>
 
-                <h3>ReadMe Machine</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/FiDq-eSe_e0" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    <h3>SQL Database Tracker</h3>
 
-            </section>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jJTQS-aa_f0" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
 
-            <section className='projects'>
+                </section>
 
-                <h3>The Venue</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/SAl53Z5xNDk" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+            </div>
 
-            </section>
+            <div className='row'>
 
-        </div>
+                <section className='projects col'>
+
+                    <h3>myTeam App</h3>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JoxPK37G1w0" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
+                </section>
+
+                <section className='projects col'>
+
+                    <h3>ReadMe Machine</h3>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FiDq-eSe_e0" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
+                </section>
+
+                <section className='projects col'>
+
+                    <h3>The Venue</h3>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SAl53Z5xNDk" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
+                </section>
+
+            </div>
+
+        </div >
     )
 };
 
