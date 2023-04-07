@@ -1,12 +1,15 @@
 import React from 'react';
 
-// import GitHubLogo from '../img/githubpng.png';
-// import LinkedInLogo from '../img/linkedinlogo.png';
-// import YouTubeLogo from '../img/youtubepng.png';
-
 function Footer() {
     return (
-        <div>
+        <div className='text-center'>
+            <address>
+                <h3><u>Info</u></h3>
+                Scott George<br />
+                Hamden, CT<br />
+                203-695-1813<br />
+                Scott5902@gmail.com
+            </address>
         </div>
     );
 };

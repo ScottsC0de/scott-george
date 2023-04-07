@@ -3,12 +3,11 @@ import matchupImg from '../img/matchupimg.png'
 
 function Portfolio() {
     return (
-        <div className='text-center'>
+        <div className='text-center mb-5'>
 
             <section className='main-project text-center'>
-                <h2>My Work</h2>
+                <h2><u>My Work</u></h2>
 
-                <br />
                 <br />
 
                 <h3>Elite Matchups</h3>
@@ -20,79 +19,83 @@ function Portfolio() {
 
             </section>
 
-            <div className='proj-top row'>
+            <br />
 
-                <section className='projects col'>
+            <section className='projects col-xl'>
 
-                    <h3>Social Media API</h3>
+                <h3>Social Media API</h3>
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_9QMaGcVVWM" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <figcaption>MongoDB data storage & retrieval</figcaption>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_9QMaGcVVWM" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <figcaption>MongoDB data storage & retrieval</figcaption>
 
-                </section>
+            </section>
 
-                <section className='projects col'>
+            <br />
 
-                    <h3>E-Commerce Back-End</h3>
+            <section className='projects col-xl'>
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/suPdpcR-5OY" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <figcaption>Database communication using Sequelize</figcaption>
+                <h3>E-Commerce Back-End</h3>
 
-                </section>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/suPdpcR-5OY" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <figcaption>Database communication using Sequelize</figcaption>
 
-                <section className='projects col'>
+            </section>
 
-                    <h3>SQL Database Tracker</h3>
+            <br />
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jJTQS-aa_f0" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <figcaption>Track database items using mySQL</figcaption>
+            <section className='projects col-xl'>
 
-                </section>
+                <h3>SQL Database Tracker</h3>
 
-            </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jJTQS-aa_f0" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <figcaption>Track database items using mySQL</figcaption>
 
-            <div className='row'>
+            </section>
 
-                <section className='projects col'>
+            <br />
 
-                    <h3>myTeam App</h3>
+            <section className='projects col-xl'>
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JoxPK37G1w0" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <figcaption>Generate HTML pages using node.js & inquirer npm</figcaption>
+                <h3>myTeam App</h3>
 
-                </section>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JoxPK37G1w0" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <figcaption>Generate HTML pages using node.js & inquirer npm</figcaption>
 
-                <section className='projects col'>
+            </section>
 
-                    <h3>ReadMe Machine</h3>
+            <br />
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FiDq-eSe_e0" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <figcaption>Generate ReadMe files using node.js & inquirer npm</figcaption>
+            <section className='projects col-xl'>
 
-                </section>
+                <h3>ReadMe Machine</h3>
 
-                <section className='projects col'>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FiDq-eSe_e0" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <figcaption>Generate ReadMe files using node.js & inquirer npm</figcaption>
 
-                    <h3>The Venue</h3>
+            </section>
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SAl53Z5xNDk" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <figcaption>Discover, share, & talk about music using the Spotify Web API</figcaption>
+            <br />
 
-                </section>
+            <section className='projects col-xl'>
 
-            </div>
+                <h3>The Venue</h3>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SAl53Z5xNDk" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <figcaption>Discover, share, & conversate about music using the Spotify Web API</figcaption>
+
+            </section>
 
         </div >
     )
