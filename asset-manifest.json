@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/scott-george/static/css/main.1f010b7d.css",
+    "main.js": "/scott-george/static/js/main.d3cf6d87.js",
+    "static/js/787.c73f4424.chunk.js": "/scott-george/static/js/787.c73f4424.chunk.js",
+    "static/media/matchupimg.png": "/scott-george/static/media/matchupimg.7c6b2a55c0dca2ff9d16.png",
+    "static/media/me.JPEG": "/scott-george/static/media/me.808d575b7b4e18d5a461.JPEG",
+    "static/media/daftgit.gif": "/scott-george/static/media/daftgit.a52daa7677157df430e3.gif",
+    "static/media/textlogo.png": "/scott-george/static/media/textlogo.222dc75522e60b4f1ff3.png",
+    "static/media/emaillogo.png": "/scott-george/static/media/emaillogo.fca5e7d9aa8887cc629b.png",
+    "static/media/phonelogo.png": "/scott-george/static/media/phonelogo.56384b5cdf16218f248b.png",
+    "index.html": "/scott-george/index.html",
+    "main.1f010b7d.css.map": "/scott-george/static/css/main.1f010b7d.css.map",
+    "main.d3cf6d87.js.map": "/scott-george/static/js/main.d3cf6d87.js.map",
+    "787.c73f4424.chunk.js.map": "/scott-george/static/js/787.c73f4424.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f010b7d.css",
+    "static/js/main.d3cf6d87.js"
+  ]
+}
